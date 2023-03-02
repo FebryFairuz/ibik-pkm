@@ -1,0 +1,26 @@
+.max-screen {
+    height: 100%;
+}
+
+#navigations .active > span.svg-icon{
+    color: #009ef7 !important;
+}
+
+.svg-icon-100 > svg{
+    width: 5.5rem !important;
+    height: 5.5rem !important;
+}
+
+#tempat-kasih .nav > li{
+    cursor: pointer;
+}
+#tempat-kasih .nav > li:hover{
+    border-color: rgb(0, 158, 247) !important;
+}
+
+@media (min-width: 750px) {
+    .max-screen {
+        width: 480px !important;
+        margin: 0 auto;
+    }
+}
